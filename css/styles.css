@@ -1,0 +1,86 @@
+.header
+{
+	cursor: default;
+	user-select: none; 
+	position: absolute; 
+	display: block; 
+	opacity: 1; 
+	pointer-events: none; 
+	transform: translate(0px, 0px); 
+	height: 49px; 
+	background-color: rgba(0, 0, 0, 0.901961);
+	transition: all 0.5s;
+	width: 100%;
+
+}
+html, body {
+	width:      100%;
+	height:     100%;
+	overflow:   hidden;
+	-webkit-text-size-adjust: 100%;
+}
+.logo
+{
+	cursor: default;
+    user-select: none;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    z-index: 28;
+    opacity: 1;
+    width: 211px;
+    height: 85px;
+    left: 100px;
+    top: -3px;
+    pointer-events: auto;
+    transition: all 0.5s;
+
+}
+.description
+{
+	z-index: 1000;
+	cursor: default; 
+	user-select: none; 
+	position: absolute; 
+	display: block; 
+	font-weight: 400; 
+	
+	font-size: 21px; 
+	
+	letter-spacing: 2px; 
+	white-space: nowrap; 
+	transition: all 0.5s;
+}
+h2,span {
+	color: rgb(234, 107, 12); 
+	font			: bold 24px/45px Helvetica, Sans-Serif;
+	font-family: "Flama Book"; 
+	letter-spacing		: -1px;
+	background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background : rgba(0, 0, 0, 0.901961);
+	padding			: 10px;
+}
+.link
+{
+	z-index: 1000;
+	cursor: default; 
+	user-select: none; 
+	position: absolute; 
+	display: block; 
+	font-weight: 400; 
+	font-family: "Flama Book"; 
+	font-size: 21px; 
+	color: rgb(255, 255, 255); 
+	letter-spacing: 2px; 
+	white-space: nowrap; 
+	transition: all 0.5s;
+}
+.link:hover
+{
+	color: rgb(234, 107, 12); 
+}
+.img_div
+{
+	position: absolute;
+	width: 100%:;
+}
